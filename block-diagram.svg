@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="#ffffff"/>
+<style>
+.box{fill:#eef5ff;stroke:#1f4e79;stroke-width:3;rx:18}
+.txt{font:24px Arial;fill:#102a43;text-anchor:middle}
+.arrow{stroke:#1f4e79;stroke-width:4;fill:none;marker-end:url(#m)}
+.small{font:18px Arial;fill:#52606d;text-anchor:middle}
+</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1f4e79"/></marker></defs>
+<rect class="box" x="40" y="120" width="190" height="110"/><text class="txt" x="135" y="165">Typing Force</text><text class="small" x="135" y="198">mechanical input</text>
+<rect class="box" x="290" y="120" width="190" height="110"/><text class="txt" x="385" y="165">Piezo Elements</text><text class="small" x="385" y="198">mechanical → electrical</text>
+<rect class="box" x="540" y="120" width="190" height="110"/><text class="txt" x="635" y="165">Bridge Rectifier</text><text class="small" x="635" y="198">AC → DC pulses</text>
+<rect class="box" x="790" y="120" width="150" height="110"/><text class="txt" x="865" y="165">Capacitor</text><text class="small" x="865" y="198">stores energy</text>
+<rect class="box" x="1000" y="120" width="160" height="110"/><text class="txt" x="1080" y="165">Arduino</text><text class="small" x="1080" y="198">measure + calculate</text>
+<path class="arrow" d="M230 175 H285"/><path class="arrow" d="M480 175 H535"/><path class="arrow" d="M730 175 H785"/><path class="arrow" d="M940 175 H995"/>
+<text class="small" x="600" y="330">Stored energy: E = 1/2 C V²</text>
+</svg>

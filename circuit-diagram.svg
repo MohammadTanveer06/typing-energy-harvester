@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="white"/>
+<style>
+.t{font:22px Arial;fill:#102a43}.w{stroke:#1f4e79;stroke-width:4;fill:none}.c{stroke:#52606d;stroke-width:3;fill:none}
+</style>
+<text class="t" x="40" y="45" font-size="30">Conceptual Wiring — Typing Energy Harvester</text>
+<text class="t" x="55" y="100">Piezo array</text>
+<path class="w" d="M55 135 H220 M55 215 H220 M120 135 V215"/>
+<text class="t" x="75" y="260">PZ1 … PZn</text>
+<rect x="250" y="100" width="190" height="150" rx="18" fill="#eef5ff" stroke="#1f4e79" stroke-width="3"/>
+<text class="t" x="285" y="165">Bridge</text><text class="t" x="285" y="200">Rectifier</text>
+<path class="w" d="M220 175 H250 M440 175 H520"/>
+<line class="w" x1="520" y1="120" x2="520" y2="230"/><line class="w" x1="565" y1="120" x2="565" y2="230"/>
+<text class="t" x="490" y="275">Cstore</text><text class="t" x="455" y="310">1000 µF (example)</text>
+<path class="w" d="M565 175 H650"/>
+<line class="w" x1="700" y1="110" x2="700" y2="240"/><line class="w" x1="760" y1="110" x2="760" y2="240"/>
+<text class="t" x="635" y="275">R1</text><text class="t" x="625" y="305">100 kΩ</text>
+<line class="w" x1="730" y1="240" x2="730" y2="300"/><line class="w" x1="730" y1="300" x2="790" y2="300"/>
+<text class="t" x="690" y="355">Vpin to A0</text>
+<line class="w" x1="820" y1="240" x2="820" y2="390"/>
+<line class="w" x1="820" y1="390" x2="730" y2="390"/>
+<line class="w" x1="730" y1="390" x2="730" y2="430"/>
+<line class="w" x1="700" y1="430" x2="760" y2="430"/>
+<text class="t" x="680" y="475">R2 = 20 kΩ</text>
+<path class="w" d="M565 230 V520 H520 M820 390 V520 H520"/>
+<text class="t" x="520" y="555">GND / common return</text>
+<rect x="900" y="330" width="220" height="130" rx="18" fill="#eef5ff" stroke="#1f4e79" stroke-width="3"/>
+<text class="t" x="1010" y="385">Arduino A0</text><text class="t" x="1010" y="420">ADC measurement</text>
+<path class="w" d="M790 300 H900 V395"/>
+<text class="t" x="40" y="620">WARNING: never connect the raw piezo output directly to A0. Measure the conditioned storage-capacitor voltage.</text>
+</svg>

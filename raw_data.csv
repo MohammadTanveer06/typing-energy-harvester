@@ -1,0 +1,10 @@
+trial,condition,duration_s,number_of_piezos,vstart_V,vend_V,delta_energy_J,notes
+1,Light,30,4,,,, 
+2,Light,30,4,,,, 
+3,Light,30,4,,,, 
+4,Normal,30,4,,,, 
+5,Normal,30,4,,,, 
+6,Normal,30,4,,,, 
+7,FastHeavy,30,4,,,, 
+8,FastHeavy,30,4,,,, 
+9,FastHeavy,30,4,,,, 
